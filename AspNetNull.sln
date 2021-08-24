@@ -1,0 +1,44 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetNull.WebAPI", "src\AspNetNull.WebAPI\AspNetNull.WebAPI.csproj", "{EA232978-D127-4E54-A362-F02098F6650A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetNull.Persistance", "src\AspNetNull.Persistance\AspNetNull.Persistance.csproj", "{B934BF5B-C224-445D-9CAA-EB798E315120}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{64C2314D-A6C8-4BEA-9084-6FB62408B0E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{2098801C-B754-4A6B-A7F0-FE8F9C960CEC}"
+	ProjectSection(SolutionItems) = preProject
+		tools\appsettings.claimtype.json = tools\appsettings.claimtype.json
+		azure-pipelines.yml = azure-pipelines.yml
+		tools\secure.appsettings.configuration.json = tools\secure.appsettings.configuration.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA232978-D127-4E54-A362-F02098F6650A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA232978-D127-4E54-A362-F02098F6650A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA232978-D127-4E54-A362-F02098F6650A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA232978-D127-4E54-A362-F02098F6650A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B934BF5B-C224-445D-9CAA-EB798E315120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B934BF5B-C224-445D-9CAA-EB798E315120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B934BF5B-C224-445D-9CAA-EB798E315120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B934BF5B-C224-445D-9CAA-EB798E315120}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EA232978-D127-4E54-A362-F02098F6650A} = {64C2314D-A6C8-4BEA-9084-6FB62408B0E2}
+		{B934BF5B-C224-445D-9CAA-EB798E315120} = {64C2314D-A6C8-4BEA-9084-6FB62408B0E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6775B8A-F951-4915-B005-75523B46FDDF}
+	EndGlobalSection
+EndGlobal
